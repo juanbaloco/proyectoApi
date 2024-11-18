@@ -12,7 +12,7 @@ public class Empleado {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "id_empleados")  // Asegúrate de que esto coincida con la BD
+    @Column(name = "id_empleados") 
     private Long idEmpleado;
 
     @Column(name = "nombre_empleados")
