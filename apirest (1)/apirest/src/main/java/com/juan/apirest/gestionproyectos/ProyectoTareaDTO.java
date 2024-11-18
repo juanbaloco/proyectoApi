@@ -1,9 +1,9 @@
 package com.juan.apirest.gestionproyectos;
 
 public class ProyectoTareaDTO {
-    private Long id_proyecto; // Ajustar al nombre exacto de la columna en la base de datos
+    private Long id_proyecto; // 
     private String estado;
-    private Long id_tarea; // Ajustar al nombre exacto de la columna en la base de datos
+    private Long id_tarea; // 
 
     // Constructor
     public ProyectoTareaDTO(Long id_proyecto, String estado, Long id_tarea) {
