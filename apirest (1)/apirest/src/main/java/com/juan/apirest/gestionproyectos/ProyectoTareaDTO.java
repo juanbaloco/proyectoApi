@@ -1,9 +1,9 @@
 package com.juan.apirest.gestionproyectos;
 
 public class ProyectoTareaDTO {
-    private Long id_proyecto; // 
+    private Long id_proyecto; 
     private String estado;
-    private Long id_tarea; // 
+    private Long id_tarea; 
 
     // Constructor
     public ProyectoTareaDTO(Long id_proyecto, String estado, Long id_tarea) {
