@@ -78,7 +78,7 @@ public List<Proyecto> obtenerProyectosAntiguos() {
         Proyecto proyectoExistente = proyectoRepository.findById(id)
             .orElseThrow(() -> new RuntimeException("Proyecto no encontrado"));
 
-        // Actualizar los campos del proyecto con los valores del nuevoProyecto
+        // Actualiza los campos del proyecto con los valores del nuevoProyecto
         proyectoExistente.setNombreProyecto(nuevoProyecto.getNombreProyecto());
         proyectoExistente.setDescripcion(nuevoProyecto.getDescripcion());
         proyectoExistente.setTipoProyecto(nuevoProyecto.getTipoProyecto());
